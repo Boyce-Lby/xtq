@@ -142,12 +142,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-4">
-                    <h1>登录</h1>
+                    <h1>找回密码</h1>
                 </div>
                 <div class="col-lg-8 col-sm-8">
                     <ol class="breadcrumb pull-right">
                         <li><a href="index.html">首页</a></li>
-                        <li class="active">登录</li>
+                        <li class="active">找回密码</li>
                     </ol>
                 </div>
             </div>
@@ -156,56 +156,80 @@
     <!--面包屑导航结束-->
 
     <!--container start-->
-    <div class="login-bg">
+    <div class="registration-bg">
         <div class="container">
-            <div class="form-wrapper">
-            <form class="form-signin wow fadeInUp" action="" method="post" id="login">
-            <h2 class="form-signin-heading">账号登录</h2>
-            <div class="login-wrap">
-                <div class="form-group">
-                <input type="text" name="mobile" id="mobile" maxlength="11" class="form-control" placeholder="请输入手机号" autofocus required>
+
+            <form class="form-signin wow fadeInUp" id="register" action="">
+                <h2 class="form-signin-heading">找回密码</h2>
+                <div class="login-wrap">
+                    <div class="form-group">
+                        <input type="text" name="mobile" id="mobile" maxlength="11" class="form-control" placeholder="请输入手机号" autofocus required>
+                        <span id="mobileMsg" class="help-block m-b-none"></span>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" name="mobileCode" id="code" maxlength="4" class="form-control pull-left" placeholder="请输入短信验证码" style="width: 50%;" required>
+                        <a style="color:#fff;margin: 3px;" class="btn btn-success" onclick="sendMobileCode();" id="send">获取短信验证码</a>
+                        <span id="codeMsg" class="help-block m-b-none"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="password" id="password" maxlength="15" class="form-control" placeholder="请输入密码" autofocus required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="confirmPass" id="confirmPass" maxlength="15" class="form-control" placeholder="请再次输入密码" autofocus required>
+                    </div>
                     
+                    <button class="btn btn-lg btn-login btn-block" type="submit">确认</button>
+
+                    <div class="registration">
+                        <a class="" href="registration.html">
+                            注册
+                        </a>
+                        <a class="" href="login.html">
+                            登录
+                        </a>
+                    </div>
                 </div>
-            <div class="form-group">
+            </form>
 
-                <input type="password" name="password" id="password" maxlength="15" class="form-control" placeholder="请输入密码" required>
-            </div>
-            <div class="form-group">
-
-                <input type="text" name="code" id="code" maxlength="4" class="form-control pull-left" placeholder="请输入验证码" style="width: 50%;" required>
-                <img class="" src="http://passport.xtq993.com/verificationCode.htm?type=image&ram=0.017601130130930454" alt="点击刷新" onclick="$(this).attr('src','http://passport.xtq993.com/verificationCode.htm?type=image&ram=' + Math.random());">
-            </div>
-                <label class="checkbox">
-                    <!-- <input type="checkbox" value="remember-me"> 记住我 -->
-                    <span class="pull-right">
-                        <a href="forgot.html"> 忘记密码?</a>
-                    </span>
-                    <span class="pull-left">
-                        <a  href="registration.html"> 免费注册</a>
-                    </span>
-                </label>
-                <button class="btn btn-lg btn-login btn-block" type="submit">登录</button>
-                <!-- <p>媒体登录</p>
-                <div class="login-social-link">
-                    <a href="index.html" class="facebook">
-                        <i class="fa fa-wechat"></i>
-                        微信
-                    </a>
-                    <a href="index.html" class="twitter">
-                        <i class="fa fa-qq"></i>
-                        QQ
-                    </a>
-                </div> -->
-            </div>
-
-
-          </form>
-          </div>
         </div>
-    </div>
+     </div>
     <!--container end-->
-
-   <!--底部开始 -->
+<!-- 协议Modal -->
+<div class="modal fade" id="xieyi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">哮天犬注册协议</h4>
+      </div>
+      <div class="modal-body" style="height:500px;">
+        <iframe src="xieyi.html" frameborder="0" width="100%" height="100%"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 条款Modal -->
+<div class="modal fade" id="tiaokuan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">隐私条款</h4>
+      </div>
+      <div class="modal-body" style="height:500px;">
+        <iframe src="tiaokuan.html" frameborder="0" width="100%" height="100%"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--底部开始 -->
     <footer class="footer-small">
         <div class="container">
             <div class="row">
@@ -246,7 +270,7 @@
         )
         wow.init();
         $().ready(function() {
-         $("#login").validate({
+         $("#register").validate({
                 submitHandler:function(form){
                     // debug:true;
                     form.submit();
@@ -258,6 +282,14 @@
                 }    
             });
         });
+        /**
+         * 发送短信验证码
+         */
+        function sendMobileCode(){
+            if(checkMobile()){
+                sendCode();
+            }
+        }
     </script>
 
   </body>
