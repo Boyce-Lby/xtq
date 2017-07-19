@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="关键字">
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+
+    <title>哮天犬</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <link href="assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.theme.css">
+
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="css/parallax-slider/parallax-slider.css" />
+    <script type="text/javascript" src="js/parallax-slider/modernizr.custom.28468.js">
+    </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js">
+    </script>
+    <script src="js/respond.min.js">
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--头部开始-->
+    <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="index.html"><span>哮天犬</span>忠诚·美好·生活</a>
+                <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a> -->
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">社区中心 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">社区生活</a>
+                            </li>
+                            <li>
+                                <a href="#">阳光政务</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">集市商城 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">农贸市场</a>
+                            </li>
+                            <li>
+                                <a href="#">生活商城</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="njxd.html">农家小店</a>
+                    </li>
+                    <li>
+                        <a href="career.html">合伙人</a>
+                    </li>
+                    <li>
+                        <a href="about.html">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="login.html">登录</a>
+                    </li>
+                    <li>
+                        <a href="registration.html">注册</a>
+                    </li>
+                    <li><input class="form-control search" placeholder="搜索" type="text"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--头部结束-->
+
+    <!-- 轮播开始 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="#"><img src="img/1.jpg" data-holder-rendered="true"></a>
+            </div>
+            <div class="item">
+                <a href="#"><img src="img/2.jpg" data-holder-rendered="true"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 轮播结束 -->
+    <div class="my_con">
+        <!-- 新闻切换开始 -->
+        <div class="container">
+
+            <div class="row mar-b-15">
+                <div class="col-lg-12">
+                    <!--切换标签开始-->
+                    <section class="tab wow fadeInLeft">
+                        <header class="panel-heading tab-bg-dark-navy-blue">
+                            <ul class="nav nav-tabs nav-justified ">
+                                <li class="active">
+                                    <a data-toggle="tab" href="#news">
+                    热点动态
+                  </a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#events">
+                    新闻资讯
+                  </a>
+                                </li>
+                                <li class="">
+                                    <a data-toggle="tab" href="#notice-board">
+                    政策资讯
+                  </a>
+                                </li>
+                            </ul>
+                        </header>
+                        <div class="panel-body">
+                            <div class="tab-content tasi-tab">
+                                <div id="news" class="tab-pane fade in active">
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <img src="img/product1.jpg" alt="">
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="article.html" class=" p-head">
+                        民警奋力救火 李庄居民锦旗相赠
+                      </a>
+                                            <p>
+                                                民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <img src="img/product2.jpg" alt="">
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="article.html" class=" p-head">
+                        民警奋力救火 李庄居民锦旗相赠
+                      </a>
+                                            <p>
+                                                民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <img src="img/product1.jpg" alt="">
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="article.html" class=" p-head">
+                        民警奋力救火 李庄居民锦旗相赠
+                      </a>
+                                            <p>
+                                                民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <img src="img/product1.jpg" alt="">
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="article.html" class=" p-head">
+                        民警奋力救火 李庄居民锦旗相赠
+                      </a>
+                                            <p>
+                                                民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <img src="img/product1.jpg" alt="">
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="article.html" class=" p-head">
+                        民警奋力救火 李庄居民锦旗相赠
+                      </a>
+                                            <p>
+                                                民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <img src="img/product1.jpg" alt="">
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="article.html" class=" p-head">
+                        民警奋力救火 李庄居民锦旗相赠
+                      </a>
+                                            <p>
+                                                民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <img src="img/product1.jpg" alt="">
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="article.html" class=" p-head">
+                        民警奋力救火 李庄居民锦旗相赠
+                      </a>
+                                            <p>
+                                                民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <img src="img/product1.jpg" alt="">
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="article.html" class=" p-head">
+                        民警奋力救火 李庄居民锦旗相赠
+                      </a>
+                                            <p>
+                                                民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                            </p>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div id="events" class="tab-pane fade">
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <!--image goes here-->
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="#" class="cmt-head">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </a>
+                                            <p>
+
+                                                <i class="fa fa-time">
+                        </i> 1 hours ago
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <!--image goes here-->
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="#" class="cmt-head">
+                        Nulla vel metus scelerisque ante sollicitudin commodo
+                      </a>
+                                            <p>
+
+                                                <i class="fa fa-time">
+                        </i> 23 mins ago
+                                            </p>
+                                        </div>
+                                    </article>
+                                    <article class="media">
+                                        <a class="pull-left thumb p-thumb">
+                                            <!--image goes here-->
+                                        </a>
+                                        <div class="media-body b-btm">
+                                            <a href="#" class="cmt-head">
+                        Donec lacinia congue felis in faucibus.
+                      </a>
+                                            <p>
+
+                                                <i class="fa fa-time">
+                        </i> 15 mins ago
+                                            </p>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div id="notice-board" class="tab-pane fade">
+                                    <p>
+                                        Notice board goes here Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.
+                                    </p>
+                                    <p>
+                                        Notice board goes here Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--切换标签结束-->
+                </div>
+
+            </div>
+        </div>
+        <!-- 新闻切换结束 -->
+
+        <!--商品开始-->
+        <div class="bg-lg">
+            <div class="container mar-b-15">
+                <div class="row">
+                    <div class="col-lg-12 recent">
+                        <h3 class="recent-work">
+                            热门商品
+                        </h3>
+                        <!-- <p>简单描述</p> -->
+                        <div id="owl-demo" class="owl-carousel owl-theme wow fadeIn">
+
+                            <div class="item view view-tenth">
+                                <img src="img/works/img8.jpg" alt="work Image">
+                                <div class="mask">
+                                    <ul class="list-unstyled price-type">
+                                        <li>美的电冰箱</li>
+                                        <li>价格：￥13133</li>
+                                        <li><a href="#" class="btn btn-success">查看详情</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item view view-tenth">
+                                <img src="img/works/img9.jpg" alt="work Image">
+                                <div class="mask">
+                                    <ul class="list-unstyled price-type">
+                                        <li>美的电冰箱</li>
+                                        <li>价格：￥13133</li>
+                                        <li><a href="#" class="btn btn-warning">查看详情</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item view view-tenth">
+                                <img src="img/works/img10.jpg" alt="work Image">
+                                <div class="mask">
+                                    <ul class="list-unstyled price-type">
+                                        <li>美的电冰箱</li>
+                                        <li>价格：￥13133</li>
+                                        <li><a href="#" class="btn btn-warning">查看详情</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item view view-tenth">
+                                <img src="img/works/img11.jpg" alt="work Image">
+                                <div class="mask">
+                                    <ul class="list-unstyled price-type">
+                                        <li>美的电冰箱</li>
+                                        <li>价格：￥13133</li>
+                                        <li><a href="#" class="btn btn-warning">查看详情</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item view view-tenth">
+                                <img src="img/works/img12.jpg" alt="work Image">
+                                <div class="mask">
+                                    <ul class="list-unstyled price-type">
+                                        <li>美的电冰箱</li>
+                                        <li>价格：￥13133</li>
+                                        <li><a href="#" class="btn btn-warning">查看详情</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item view view-tenth">
+                                <img src="img/works/img13.jpg" alt="work Image">
+                                <div class="mask">
+                                    <ul class="list-unstyled price-type">
+                                        <li>美的电冰箱</li>
+                                        <li>价格：￥13133</li>
+                                        <li><a href="#" class="btn btn-warning">查看详情</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--商品结束-->
+        </div>
+
+
+        <!-- 社区生活开始 -->
+        <div class="container">
+            <div class="row mar-b-15">
+                <div class="text-center feature-head wow fadeInDown animated" data-wow-animation-name="fadeInDown">
+                    <h3 class="">
+                        社区生活
+                    </h3>
+
+                </div>
+                <div class="feature-box">
+                    <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+                        <div class="feature-box-heading">
+                            <em>
+                <a href="#"><img src="img/works/img9.jpg" alt="" width="100%"></a>
+
+                </em>
+                            <h4>
+                                <b>名字名字</b>
+                            </h4>
+                        </div>
+                        <p class="text-center">
+                            名字名字名字名字名字
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+                        <div class="feature-box-heading">
+                            <em>
+                  <a href="#"><img src="img/works/img9.jpg" alt="" width="100%"></a>
+                </em>
+                            <h4>
+                                <b>名字名字名字</b>
+                            </h4>
+                        </div>
+                        <p class="text-center">
+                            名字名字名字名字名字名字名字
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+                        <div class="feature-box-heading">
+                            <em>
+                  <a href="#"><img src="img/works/img9.jpg" alt="" width="100%"></a>
+                </em>
+                            <h4>
+                                <b>名字名字名字名字名字名字名字名字</b>
+                            </h4>
+                        </div>
+                        <p class="text-center">
+                            名字名字名字名字名字名字
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+                        <div class="feature-box-heading">
+                            <em>
+                  <a href="#"><img src="img/works/img9.jpg" alt="" width="100%"></a>
+                </em>
+                            <h4>
+                                <b>名字名字名字名字</b>
+                            </h4>
+                        </div>
+                        <p class="text-center">
+                            名字名字名字名字
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+                        <div class="feature-box-heading">
+                            <em>
+                  <a href="#"><img src="img/works/img9.jpg" alt="" width="100%"></a>
+                </em>
+                            <h4>
+                                <b>名字名字名字</b>
+                            </h4>
+                        </div>
+                        <p class="text-center">
+                            名字名字名字名字名字名字名字名字名字名字
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+                        <div class="feature-box-heading">
+                            <em>
+                  <a href="#"><img src="img/works/img9.jpg" alt="" width="100%"></a>
+                </em>
+                            <h4>
+                                <b>名字名字名字</b>
+                            </h4>
+                        </div>
+                        <p class="text-center">
+                            名字名字名字名字名字名字名字
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 社区生活结束 -->
+
+
+        <div class="hr"></div>
+        <!-- 友情链接开始 -->
+        <div class="container">
+            <div class="row mar-b-15 our-clients">
+                <div class="col-md-3">
+                    <h3>
+                        友情链接
+                    </h3>
+                </div>
+                <div class="col-md-9">
+                    <ul class="likelink list-unstyled">
+                        <li>
+                            <a href="http://dzzwdt.yibin.gov.cn/portal/index_pc10000.jsp" target="_blank">宜宾市电子政务大厅</a>
+                        </li>
+                        <li>
+                            <a href="http://www.yibin.gov.cn/index.html" target="_blank">宜宾市人民政府</a>
+                        </li>
+                        <li>
+                            <a href="http://12345.yibin.gov.cn/" target="_blank">宜宾市12345市民服务平台</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xiangnian365.com/" target="_blank">北京乡念科技有限公司</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xiangnian365.com/" target="_blank">北京乡念科技有限公司</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xiangnian365.com/" target="_blank">北京乡念科技有限公司</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xiangnian365.com/" target="_blank">北京乡念科技有限公司</a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- 友情链接结束 -->
+    </div>
+
+
+
+
+
+    <!--底部开始 -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="copyright">
+                        <p>&copy; Copyright - @2017 宜宾辉越科技有限公司<br><a target="_blank" href="http://www.miitbeian.gov.cn/">蜀ICP备17021191号</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--底部结束-->
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/hover-dropdown.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>
+
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/link-hover.js"></script>
+    <script type="text/javascript" src="js/parallax-slider/jquery.cslider.js"></script>
+
+
+
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+
+
+    <script>
+        $('a.info').tooltip();
+
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function(slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+        // 热门产品滚动
+        $(document).ready(function() {
+
+            $("#owl-demo").owlCarousel({
+
+                items: 4,
+                autoPlay: true,
+                slideSpeed: 2000,
+                stopOnHover: true
+
+            });
+
+        });
+
+
+        new WOW().init();
+    </script>
+</body>
+
+</html>

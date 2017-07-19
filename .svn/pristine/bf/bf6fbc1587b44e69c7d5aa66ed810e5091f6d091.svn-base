@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="关键字">
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+
+    <title>哮天犬</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <link href="assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.theme.css">
+
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+    </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js">
+    </script>
+    <script src="js/respond.min.js">
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--头部开始-->
+    <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="index.html"><span>哮天犬</span>忠诚·美好·生活</a>
+                <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a> -->
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">社区中心 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">社区生活</a>
+                            </li>
+                            <li>
+                                <a href="#">阳光政务</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">集市商城 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">农贸市场</a>
+                            </li>
+                            <li>
+                                <a href="#">生活商城</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="njxd.html">农家小店</a>
+                    </li>
+                    <li>
+                        <a href="career.html">合伙人</a>
+                    </li>
+                    <li>
+                        <a href="about.html">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="login.html">登录</a>
+                    </li>
+                    <li>
+                        <a href="registration.html">注册</a>
+                    </li>
+                    <li><input class="form-control search" placeholder="搜索" type="text"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--头部结束-->
+
+    <!--面包屑导航开始-->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4">
+                    <h1>文章详情</h1>
+                </div>
+                <div class="col-lg-8 col-sm-8">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="news.html">文章列表</a></li>
+                        <li class="active">文章详情</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--面包屑导航结束-->
+
+    <!--container start-->
+    <div class="my_con">
+        <div class="container">
+            <div class="row mar-b-15">
+                <div class="col-md-12 career-head">
+                    <h1 class="wow fadeIn animated" data-wow-animation-name="fadeIn" style="visibility: visible; animation-name: fadeIn;">文章标题</h1>
+                    <p class="date">发布时间：2017-07-07 09:18 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来源：《财新周刊》2015 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作者：冯俏彬</p>
+                    <div class="tag">
+                        <span>标签：</span>
+                        <span class="label label-default"><a href="">New</a></span>
+                        <span class="label label-default"><a href="">New</a></span>
+                        <span class="label label-default"><a href="">New</a></span>
+                    </div>
+                </div>
+                <hr>
+                <div class="content col-md-12">
+                    <div class="pagebox">
+                        <p>
+                            随着PPP模式在国内的发展愈发火热,对PPP抱有关注的人士越来越多,越来越多的企业想要涉足PPP领域。然而,由于PPP模式在我国采用年限不久很多人对PPP模式也仅是一知半解,那么PPP模式在采用过程中对于政企双方最主要存在的核心是什么呢?</p>
+                        <p>
+                            一、合同能力与合同管理</p>
+                        <p>
+                            既然是合作,在政府与社会资本之间就不再是管理与被管理的关系,而是平等的合作伙伴关系,双方之间责、权、利要由具备法律效力的合同文本来规定。换言之,在PPP的语境下,政府与社会资本之间是民事主体关系,受民事法律的调节。由于PPP项目通常金额大、时间长、操作复杂,一个PPP项目可能涉及多个、甚至数十个主体参与其中,由此,可能会产生数以十计、百计的合同,形成一个复杂的合同体系,而且每一份合同因为力图穷尽二、三十年时间内所有可能发生的情形,因此内容往往十分复杂。据说在国外,很多重要领域的PPP标准合同的页数一般在1000页以上。一般而言,PPP项目合同体系往往包括项目合同、股东协议、履约合同(包括工程承包合同、运营服务合同、原料供应合同、产品或服务购买合同等)、融资合同和保险合同等,体系十分庞大,内容涉及方方面面,因此合同管理是PPP运作的核心之一。</p>
+                        <p>
+                            在早期,我国一些PPP项目由于缺乏经验,合同往往十分简单,甚至出现过以政府文件代替合同的例子,双方为此都付出了惨痛代价,一些矛盾与问题到现在还没有得合理解决。近一个时期以来,从我所看到、听到的例子中,对于合同的重视程度是大大提高了。比如,一个南方某城市与某公司形成了一个关于城市整体开发、建设、运营的巨型PPP项目,在项目开工前,公司用了四年的时间,聘请国际国内最好的法律顾问,就合作期间一切可能设想到的问题拟定合同文本,据说形成的合同涉及四个层面、分成11个大合同、若干小合同,另含若干协议、附件等,为此付出的费用高达数千万美金。这是朝向规范之路上的进步之举,说明社会资本正在吸取此前一些PPP项目的教训,力图防患于未燃。但与此同时,也要注意发生政府与企业之间合同能力的不对等可能导致的问题。在当下PPP席卷全国的情况下,政府必须加紧学习,努力引进或聘请专业人才,保证从订立合同开始,就能平衡双方的利益与诉求,防止合同向一方过于倾斜。</p>
+                        <p>
+                            二、公共定价机制与价格管理</p>
+                        <p>
+                            PPP是为了政府更好地提供公共产品与公共服务而生的,但并不意味着所有的公共产品都可用PPP来提供。准确地说,PPP主要适用于未来能产生稳定现金流的部分准公共产品,用学术语言讲,就是PPP仅适用于能识别受益主体、衡量受益程度进而具备收费条件的某些公共产品,如交通设施、公共事业设施等。说白了,社会资本之所以愿意进入PPP,主要还是基于赚钱的目的(资本本性所致,正常且无可厚非)</p>
+                        <p>
+                            PPP对于价格管理的基本原则是“盈利但不暴利”。具体可解说如下:</p>
+                        <p>
+                            第一,社会资本应当而且可以赚钱,但只能赚得合理利润。什么是合理利润?一般的解释是社会平均资本利润率。比如,假设当前全社会的平均资本利润率大约为8%,那么社会资本从PPP项目可得到的资本回报就应当以此为基本参照,太低了社会资本一方不愿意,太高了政府就不可能答应。具体当然要由双方协商,但社会平均利润率毫无疑问是重要的参考基线。</p>
+                        <p>
+                            第二,政府要承担价格管理的重任。通过PPP方式运作的公共设施,其价格调整权限属于政府,应当采用公共定价的整个流程与方式。对此,基本的要求是:定价应基于成本,并进行适度价格管制,既保证项目运行及社会资本的合理收益,又不损及公共利益,同时要建立对收益进行补贴、调整或约束的条款。一方面,政府要保证社会资本在整个特许经营期内均能稳定地获得上述合理利润,如果因为某种原因——如运营初期业务量较小——导致社会资本的利润率低于合同规定水平,政府就有责任通过财政补贴等方式将社会资本的利润率推高到合同水平。另一方面,如果社会资本的利润率因为种种原因超过合同水平,政府就要采取措施抑制,或者促成降价,或者将超额收益收归财政。</p>
+                        <p>
+                            换言之,在社会资本与面向公众收取的价格之间,必然存在着“政府”这一中介屏障,社会资本不需要也不必要直接面对公众,由于公共原因产生的对收入的影响,由政府出面协调、调整。举个例子,北京地铁4号线是用PPP方式建设起来的一个成功范例,在2008年营运之初,因客流量不足,北京市政府曾给予营运方——香港城铁公司——相应补贴,但去年,北京市地铁统一调高了价格,但香港城铁公司的收入与此完全无涉,调价产生的收益全部归北京市财政。这是关于PPP中公共定体系机制的生动注脚。</p>
+                        <p>
+                            三、风险分配与风险管理</p>
+                        <p>
+                            当前,我国对于特许经营的授权时间规定为25年。在这么长的时间内,各种可能性都有,各种风险都可能发生。因此,风险管理是PPP的另一个核心要旨是管理风险。</p>
+                        <p>
+                            首先,要在合作双方之间分配风险。分配风险的基本原则是:按风险类别,把风险分配给有能力管理的一方。如政府,如果是政策变化、应对公众等方面的风险,政府就是合适的承担者。对于项目建设经营过程中的日常运营、管理、财务、市场变化等风险,社会资本就是合适的承担者。另有一些不可抗力风险,如法律变化、自然灾害、意外事故等,就应当双方共同分担。</p>
+                        <p>
+                            另外,在风险分配上,也有人将风险分为国家级的风险、市场级的风险和项目级的风险,以此来确定风险的适宜承担对象。其次,要设定与承担风险相对称的收益分配机制。一般地,在合同订立的阶段,双方对于项目未来可能面临的风险就会进行评估,承担较多风险的一方,应当获得与之相适应的收益保证。最后,要特别防止出现风险错配,如政府承担了市场风险,而社会资本承担政策变化的风险等,都是PPP的大忌。</p>
+                        <p>
+                            当前,在PPP的理论与实践两个层面,都有这样一种认识,即认为PPP最大的风险来自于政府缺乏契约精神、“新官不理旧账”的风险。国内一些著名的PPP失败案例对此有生动说明,一位企业家沉痛地说:PPP“榜样的力量是无穷的,但修理榜样的后果是严重的”,诚哉斯言。</p>
+                        <p>
+                            当前,PPP整体进展缓慢,与社会资本对此存在疑虑是高度相关的。要解决这个问题,短期来看,要在操作层面要尽量制订好严密的合同文本,对政府形成难以随便毁约的实质性约束。长远而言,则是贯彻全面依法治国的精神,一旦发生相关诉讼,严格按法律进行裁决,形成可资参考、学习、模仿的PPP争端判例。如此,三五个判例后,政府的契约精神就将大幅度提高。</p>
+
+                    </div>
+                </div>
+                <div class="page">
+                    <ul class="pager">
+                        <li class="previous disabled"><a href="#"><span aria-hidden="true">←</span> 上一篇</a></li>
+                        <li class="next"><a href="#">下一篇 <span aria-hidden="true">→</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--container end-->
+
+    <!--底部开始 -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="copyright">
+                        <p>&copy; Copyright - @2017 宜宾辉越科技有限公司<br><a target="_blank" href="http://www.miitbeian.gov.cn/">蜀ICP备17021191号</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--底部结束-->
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/hover-dropdown.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/link-hover.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/validate.messages_zh.js"></script>
+    <script src="js/wow.min.js"></script>
+
+
+
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+
+
+    <script src="js/wow.min.js"></script>
+
+
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 0 // default
+        })
+        wow.init();
+    </script>
+
+</body>
+
+</html>

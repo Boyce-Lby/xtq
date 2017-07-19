@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="关键字">
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+
+    <title>哮天犬</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <link href="assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.theme.css">
+
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+    </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js">
+    </script>
+    <script src="js/respond.min.js">
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--头部开始-->
+    <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="index.html"><span>哮天犬</span>忠诚·美好·生活</a>
+                <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a> -->
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">社区中心 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">社区生活</a>
+                            </li>
+                            <li>
+                                <a href="#">阳光政务</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">集市商城 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">农贸市场</a>
+                            </li>
+                            <li>
+                                <a href="#">生活商城</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">生态农家 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">农家小店</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">合作共赢 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">合伙人</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="about.html">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="login.html">登录</a>
+                    </li>
+                    <li>
+                        <a href="registration.html">注册</a>
+                    </li>
+                    <li><input class="form-control search" placeholder="搜索" type="text"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--头部结束-->
+
+    <!--面包屑导航开始-->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4">
+                    <h1>关于我们</h1>
+                </div>
+                <div class="col-lg-8 col-sm-8">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="index.html">首页</a></li>
+                        <li class="active">关于我们</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--面包屑导航结束-->
+
+    <!--container start-->
+    <div class="my_con">
+        <div class="container">
+
+            <div class="row mar-b-15">
+                <div class="col-sm-12">
+                    <div class="tabs-container">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true">公司简介</a>
+                            </li>
+                            <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">品牌文化</a>
+                            </li>
+                            </li>
+                            <li class=""><a data-toggle="tab" href="#tab-3" aria-expanded="false">发展历程</a>
+                            </li>
+                            </li>
+                            <li class=""><a data-toggle="tab" href="#tab-4" aria-expanded="false">新闻活动</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tab-1" class="tab-pane active">
+                                <div class="panel-body">
+                                    <img style="width: 100%;" src="http://www.xtq993.com/images/%E5%85%AC%E5%8F%B8.jpg">
+                                    <p>
+                                        哮天犬网络服务平台是宜宾辉越科技有限公司致力开发，重点打造基于“互联网服务生活、创业生态”理念的综合性网络平台，通过“互联网+”的方式，为广大县域及农村地区原生态产品等资源提供电商平台开发与运营、农家小店网络化升级、县域及全国商品批发平台（B2B）、县域及全国商品零售平台（B2C）、乡镇级创业团队仓配物流平台、农特产品上行、工业产品下行等一站式的电商服务解决方案。 哮天犬通过团结村社级创业个人，组建的镇级展示店及服务站，实现线上线下相结合的服务网络，突破各地区基层信息流、物运流、支付流、电商人才及电商意识的瓶颈，提高“工业品下乡”和“农产品进城”的双向流通效率，助力当地传统商贸业态向“互联网+”转型，促进当地经济线上线下融合发展，并结合平台大数据优化县域地区存量商贸体系的效率，进而为当地创造商贸体系及信息服务的增量市场。并通过“互联网+创业个体+县域经济”的模式，将地区资源、市场商机、居民消费、生活数据、人才与就业留在当地，促进各县域经济的发展和智慧农村的建设。哮天犬坚持做农户的忠诚助手，不做农产品的市场美化，坚持生态产品健康价；不做工业品的市场优化，坚持生活产品生活价，使大众享受物美价廉的下行服务，让农产品上行价值得到最大化的健康体现，促成农户精准脱贫致富，社会创业者共享资源配置，分享劳动创造的美好生活，资源共享的创业乐趣。
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="tab-2" class="tab-pane">
+                                <div class="panel-body">
+                                    <p>
+                                        简单的事重复做，你就是专家；撸起袖子加油干，赋予品牌深刻而丰富的文化内涵，建立鲜明的品牌定位，并充分利用各种强有效的内外部传播途径形成消费者对品牌在精神上的高度认同，创造品牌信仰，最终形成强烈的品牌忠诚。 农业运营效率低下，（移动）互联网改造空间巨大。农业（种植业、养殖业等）生产、交易、融资、流通环节存在巨大效率提升空间：1）市场空间大，2）产业落后，信息不对称较严重。3）大规模分散的用户。4)交易时间较长，交易成本高。5）交易可持续性强。 移动互联网正全面改造农业产业链条。 公司本着立足农村及社区，维护健康生活，立志遵守生态原始化的传承者。建立一个共同参与、共同创业的互联网平台。我们在想，有没有可能解决农产品不值钱、农村人才外出、人们急于功利等问题？所以我们团队共同搭建了“哮天犬”应用平台；我们坚信我们能让城里人吃到健康、可心的食物，我们能让村里人再也不用担心农产品卖不出去，买不到想要的商品了；我们用自己的想法，全力去完成，给予人们美好、健康，生态的生活方式，并配合当地政府用“实名认证”来背书，结合朴素的搬运态度，忠诚、美好、生活等元素服务大众。
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="tab-3" class="tab-pane">
+                                <div class="panel-body">
+                                    <p>
+                                        1.2017年中央一号文件首次将“推进农村电商发展”单独提出 2.当前，我国农业正经受农业资源部分闲置、开发过度、污染加重的考验 3.互联网+开创了大众参与的众筹模式，对于我国农业现代化影响深远。 4.采用线上线下结合的双向O2O模式：走进农村带动工业品下行，走出农村助力农特产品上行。
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="tab-4" class="tab-pane">
+                                <div class="panel-body">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <span class="time">2017.07.19</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading"><a href="article.html">民警奋力救火 李庄居民锦旗相赠</a></h4>
+                                            民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <span class="time">2017.07.19</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading"><a href="article.html">民警奋力救火 李庄居民锦旗相赠</a></h4>
+                                            民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <span class="time">2017.07.19</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading"><a href="article.html">民警奋力救火 李庄居民锦旗相赠</a></h4>
+                                            民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠民警奋力救火 李庄居民锦旗相赠
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--container end-->
+
+    <!--底部开始 -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="copyright">
+                        <p>&copy; Copyright - @2017 宜宾辉越科技有限公司<br><a target="_blank" href="http://www.miitbeian.gov.cn/">蜀ICP备17021191号</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--底部结束-->
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/hover-dropdown.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/link-hover.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/validate.messages_zh.js"></script>
+    <script src="js/wow.min.js"></script>
+
+
+
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+
+
+    <script src="js/wow.min.js"></script>
+
+
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 0 // default
+        })
+        wow.init();
+    </script>
+
+</body>
+
+</html>
