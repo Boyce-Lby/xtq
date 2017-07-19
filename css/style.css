@@ -2304,6 +2304,7 @@ ul#filters>.active>span {
 /*registration*/
 
 .registration-bg {
+    min-height: 900px;
     margin-top: -40px;
     background-color: #f1f2f7;
 }
@@ -2656,6 +2657,7 @@ ul#filters>.active>span {
 }
 
 .login-bg {
+    min-height: 900px;
     margin-top: -40px;
     margin-bottom: -50px;
     background-color: #f1f2f7;
@@ -4049,7 +4051,7 @@ div.header h3 {
 }
 
 .my_con {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     min-height: 900px;
 }
 
