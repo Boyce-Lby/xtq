@@ -4323,7 +4323,3 @@ div.header h3 {
 .pad-all-15 {
     padding: 15px;
 }
-
-.order-table td {
-    vertical-align: middle !important;
-}

@@ -4319,11 +4319,3 @@ div.header h3 {
         border-right: 0
     }
 }
-
-.pad-all-15 {
-    padding: 15px;
-}
-
-.order-table td {
-    vertical-align: middle !important;
-}
