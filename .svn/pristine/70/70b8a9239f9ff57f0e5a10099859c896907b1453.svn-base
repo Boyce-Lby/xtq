@@ -8,10 +8,11 @@
     <meta name="keywords" content="关键字">
     <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
 
-    <title>哮天犬</title>
+    <title>社区生活</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
     <link href="css/bootstrap-reset.css" rel="stylesheet">
 
@@ -114,12 +115,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-4">
-                    <h1>合伙人</h1>
+                    <h1>社区生活</h1>
                 </div>
                 <div class="col-lg-8 col-sm-8">
                     <ol class="breadcrumb pull-right">
                         <li><a href="index.html">首页</a></li>
-                        <li class="active">合伙人</li>
+                        <li class="active">社区生活</li>
                     </ol>
                 </div>
             </div>
@@ -129,91 +130,88 @@
 
     <!--container start-->
     <div class="my_con">
-        <div class="white-bg">
+        <div class="login-bg">
+            <div class="container" style="padding:20px 0 100px 0;">
+                <div class="row">
+                    <div class="col-md-9">
 
-            <!-- career -->
-            <div class="container career-inner">
-                <div class="row">
-                    <div class="col-md-12 career-head">
-                        <h1 class="wow fadeIn">合伙人介绍</h1>
+                        <div class="topics panel panel-default">
+
+                            <div class="panel-body item-list">
+                                <div class="topic media">
+                                    <div class="avatar media-left">
+                                        <a href="sqshtz.html"><img class="media-object avatar-48" src="img/head.jpg"></a>
+                                    </div>
+                                    <div class="infos media-body">
+                                        <div class="title media-heading">
+                                            <a title="TesterHome 第一届西安测试沙龙报名帖" href="sqshtz.html">
+                                                TesterHome 第一届西安测试沙龙报名帖
+                                            </a> <i class="fa fa-thumb-tack" title="置顶"></i>
+                                        </div>
+                                        <div class="info">
+                                            <a class="user-name" href="#">用户名</a>
+                                            <span class="hidden-mobile"> • 最后由 <a class="user-name" href="#">arkin</a> 回复于 <abbr class="timeago" title="2017年07月20日">14 小时前</abbr></span>
+                                        </div>
+                                    </div>
+                                    <div class="count media-right">
+                                        <a class="state-false" href="sqshtz.html">12</a>
+                                    </div>
+                                </div>
+                                <div class="topic media">
+                                    <div class="avatar media-left">
+                                        <a href="sqshtz.html"><img class="media-object avatar-48" src="img/head.jpg"></a>
+                                    </div>
+                                    <div class="infos media-body">
+                                        <div class="title media-heading">
+                                            <a title="TesterHome 第一届西安测试沙龙报名帖" href="sqshtz.html">
+                                                TesterHome 第一届西安测试沙龙报名帖
+                                            </a> <i class="fa fa-thumb-tack" title="置顶"></i>
+                                        </div>
+                                        <div class="info">
+                                            <a class="user-name" href="#">用户名</a>
+                                            <span class="hidden-mobile"> • 最后由 <a class="user-name" href="#">arkin</a> 回复于 <abbr class="timeago" title="2017年07月20日">14 小时前</abbr></span>
+                                        </div>
+                                    </div>
+                                    <div class="count media-right">
+                                        <a class="state-false" href="sqshtz.html">12</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel-footer clearfix">
+                                <ul class="pagination">
+                                    <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                </ul>
+
+                            </div>
+                        </div>
 
                     </div>
+
+
+                    <div class="sidebar col-md-3">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a class="btn btn-success btn-block" href="#">发布新话题</a>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">小帖士</div>
+                            <div class="panel-body">
+                                这里是小贴士提示信息~~~~
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-12 wow fadeIn">
-                        <p class="align-left">
-                            合伙人内容部分简介合伙人内容部分简介合伙人内容部分简介合伙人内容部分简介合伙人内容部分简介合伙人内容部分简介合伙人内容部分简介合伙人内容部分简介合伙人内容部分简介合伙人内容部分简介
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-md-offset-4 career-contact">
-                        <p class="text-center wow pulse"><i class="fa fa-envelope pr-10"></i><b>Email : </b><a href="mailto:123@123.com">123123123@123.com</a></p>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="candidate wow fadeInLeft">
-                            <h1>合伙人一</h1>
-                            <p class="align-left">合伙人内容部分简介合伙人内容部分简介</p>
-                            <h4>要求：</h4>
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一</li>
-                            </ul>
-                            <button class="btn btn-info">留用按钮</button>
-                        </div>
-                        <hr>
-                        <div class="candidate wow fadeInLeft">
-                            <h1>合伙人一</h1>
-                            <p class="align-left">合伙人内容部分简介合伙人内容部分简介</p>
-                            <h4>要求：</h4>
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一</li>
-                            </ul>
-                            <button class="btn btn-info">留用按钮</button>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="candidate wow fadeInRight">
-                            <h1>合伙人一</h1>
-                            <p class="align-left">合伙人内容部分简介合伙人内容部分简介</p>
-                            <h4>要求：</h4>
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一</li>
-                            </ul>
-                            <button class="btn btn-info">留用按钮</button>
-                        </div>
-                        <hr>
-                        <div class="candidate wow fadeInRight">
-                            <h1>合伙人一</h1>
-                            <p class="align-left">合伙人内容部分简介合伙人内容部分简介</p>
-                            <h4>要求：</h4>
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一要求一</li>
-                                <li><i class="fa fa-angle-right pr-10"></i>要求一要求一要求一要求一要求一</li>
-                            </ul>
-                            <button class="btn btn-info">留用按钮</button>
-                        </div>
-                        <hr>
-                    </div>
-                </div>
-                <!-- career -->
             </div>
         </div>
     </div>
@@ -234,8 +232,10 @@
     <!--底部结束-->
 
     <!-- js placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/jquery.js"></script> -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/hover-dropdown.js"></script>
     <script defer src="js/jquery.flexslider.js"></script>
     <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>

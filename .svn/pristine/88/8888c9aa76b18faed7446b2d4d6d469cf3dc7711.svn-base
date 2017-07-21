@@ -66,15 +66,24 @@
                       </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="sqsh.html">社区生活</a>
+                                <a href="#">社区生活</a>
                             </li>
                             <li>
                                 <a href="ygzw.html">阳光政务</a>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="#">生活商城</a>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">集市商城 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">农贸市场</a>
+                            </li>
+                            <li>
+                                <a href="#">生活商城</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">店铺 <i class="fa fa-angle-down"></i>
@@ -133,7 +142,7 @@
             <div class="container" style="padding-bottom:100px;">
                 <div class="profile-header row">
                     <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-                        <img src="img/head.jpg" data-toggle="modal" data-target="#avatar-modal" class="header-avatar">
+                        <img src="http://localhost/BeyondAdmin/assets/img/avatars/divyia.jpg" data-toggle="modal" data-target="#avatar-modal" class="header-avatar">
                     </div>
                     <div class="col-lg-5 col-md-8 col-sm-12 profile-info">
                         <div class="header-fullname">小龙套</div>

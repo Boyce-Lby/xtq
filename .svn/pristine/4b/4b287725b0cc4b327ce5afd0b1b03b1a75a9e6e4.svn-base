@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="关键字">
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+
+    <title>社区生活帖子</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <link href="assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.theme.css">
+
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="css/parallax-slider/parallax-slider.css" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.6/summernote.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js">
+    </script>
+    <script src="js/respond.min.js">
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--头部开始-->
+    <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="index.html"><span>哮天犬</span>忠诚·美好·生活</a>
+                <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a> -->
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">社区中心 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="sqsh.html">社区生活</a>
+                            </li>
+                            <li>
+                                <a href="ygzw.html">阳光政务</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">生活商城</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">店铺 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="dplb.html">店铺列表</a>
+                            </li>
+                            <li>
+                                <a href="njxd.html">农家小店</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="career.html">合伙人</a>
+                    </li>
+                    <li>
+                        <a href="about.html">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="login.html">登录</a>
+                    </li>
+                    <li>
+                        <a href="registration.html">注册</a>
+                    </li>
+                    <li>
+                        <a href="grzx.html">个人中心</a>
+                    </li>
+                    <li><input class="form-control search" placeholder="搜索" type="text"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--头部结束-->
+
+    <!--面包屑导航开始-->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4">
+                    <h1>社区生活帖子</h1>
+                </div>
+                <div class="col-lg-8 col-sm-8">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="index.html">首页</a></li>
+                        <li class="active">社区生活帖子</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--面包屑导航结束-->
+
+    <!--container start-->
+    <div class="my_con">
+        <div class="login-bg">
+            <div class="container" style="padding:20px 0 100px 0;">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="topic-detail panel panel-default">
+                            <div class="panel-heading media clearfix">
+                                <div class="media-body">
+                                    <h1 class="media-heading">
+                                        [北京] 百度搜索 招聘高级测试开发工程师
+
+                                    </h1>
+                                    <div class="info">
+                                        <a data-author="true" class="user-name" data-name="刘道伟" href="#">Daowei</a> · 发布于 <abbr class="timeago" title="2017年07月20日">17 小时前</abbr> · 162 次阅读
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="panel-body markdown markdown-toc">
+
+
+
+                                <h2 id="岗位职责">岗位职责</h2>
+                                <p>-负责<strong>百度搜索</strong>前端的测试开发工作，制定项目测试方案，计划并实施，保证项目质量和进度&nbsp;&nbsp;<br> -设计与执行测试用例，跟踪定位产品软件中的缺陷或问题&nbsp;&nbsp;
+                                    <br> -参与产品需求、系统设计和程序代码的评审工作，并提出改进意见&nbsp;&nbsp;
+                                    <br> -根据产品和项目特点，提出合理的自动化解决方案，并负责设计和实现自动化测试工具，提高测试效率&nbsp;&nbsp;
+                                    <br> -评估项目质量风险，与产品经理和开发人员就项目进度和问题进行沟通&nbsp;&nbsp;&nbsp;&nbsp; </p>
+                                <h2 id="岗位要求">岗位要求</h2>
+                                <p>-正规高校计算机及相关专业本科以上学历&nbsp;&nbsp;<br> -具备web产品开发/测试或者无线产品开发/测试经验
+                                    <br> -熟悉软件测试理论和方法，熟悉互联网行业测试环境及相关技术&nbsp;&nbsp;
+                                    <br> -熟悉Linux/Unix操作系统&nbsp;&nbsp;
+                                    <br> -熟悉C/C++,熟悉脚本语言如php/shell至少一种 等，能熟练编写测试代码和测试工具&nbsp;&nbsp;<br> -在软件测试流程、规范制定和实施方面有丰富的经验
+                                </p>
+                                <h2 id="薪资待遇">薪资待遇</h2>
+                                <p>提供有竞争力的薪资，详情面议</p>
+                                <h2 id="工作地点">工作地点</h2>
+                                <p>北京西二旗百度科技园</p>
+                                <h2 id="联系方式">联系方式</h2>
+                                <p>简历投递：psqa-ala-recruit@baidu.com</p>
+
+
+                            </div>
+
+
+                            <div class="panel-footer clearfix">
+                                <div class="opts">
+                                    <a data-count="1" data-state="" data-type="Topic" data-id="9437" class="likeable  tooltipstered" href="#"><i class="fa fa-heart"></i> <span>1 个赞</span></a>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="alert alert-block topic-copyright">
+                            <div class="markdown">
+                                转载文章时务必注明原作者及原始链接，并注明「发表于 TesterHome 」，并不得对作品进行修改。
+                            </div>
+                        </div>
+
+
+                        <div class="no-result">
+                            暂无回复。
+                        </div>
+
+                        <div id="replies" class="panel panel-default" data-last-floor="5">
+                            <div class="total panel-heading hide-ios">
+                                共收到 <b>5</b> 条回复
+                            </div>
+                            <div class="items panel-body">
+                                <div class="reply">
+                                    <div>
+                                        <div class="avatar">
+                                            <a title="hello2014 (大海)" href="#"><img class="media-object avatar-48" src="img/head.jpg"></a>
+                                        </div>
+                                        <div class="infos">
+                                            <div class="info">
+                                                <span class="name">
+            <a class="user-name" data-name="大海" href="#">hello2014</a>
+          </span> ·
+                                                <span class="floor">#1</span> ·
+                                                <a class="time" href="#reply-77607"><abbr class="timeago" title="2017年05月31日">2 月前</abbr></a>
+                                                <span class="opts pull-right">
+              <span class="hideable">
+              <a class="edit fa fa-pencil" data-uid="1203" title="修改回帖" href="#"></a>
+              <a class="fa fa-pencil" data-uid="1203" title="修改回帖" href="#"></a>
+              <a title="回复此楼" class="btn-reply fa fa-mail-reply" href="#"></a>
+              </span>
+                                                <a title="赞" class="likeable " href="#"><i class="fa fa-heart"></i> <span></span></a>
+                                                </span>
+                                            </div>
+
+                                            <div class="markdown">
+                                                <p>感谢社区组织者，感谢社区，未来将继续为提高社区知名度和活跃度，发光发热！ </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reply">
+                                    <div>
+                                        <div class="avatar">
+                                            <a title="wolf (wolf)" href="/wolf"><img class="media-object avatar-48" src="img/head.jpg"></a>
+                                        </div>
+                                        <div class="infos">
+                                            <div class="info">
+                                                <span class="name">
+            <a class="user-name" data-name="wolf" href="#">wolf</a>
+          </span> ·
+                                                <span class="floor">#2</span> ·
+                                                <a class="time" href="#reply-77612"><abbr class="timeago" title="2017年05月31日">2 月前</abbr></a>
+                                                <span class="opts pull-right">
+              <span class="hideable">
+              <a class="edit fa fa-pencil" data-uid="5953" title="修改回帖" href="#"></a>
+              <a title="回复此楼" class="btn-reply fa fa-mail-reply" href="#"></a>
+              </span>
+                                                <a title="赞" class="likeable " href="#"><i class="fa fa-heart"></i> <span></span></a>
+                                                </span>
+                                            </div>
+
+                                            <div class="markdown">
+                                                <p> 哇 能收到卫衣很开心啊</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reply">
+                                    <div>
+                                        <div class="avatar">
+                                            <a title="Litter (七月)" href="#"><img class="media-object avatar-48" src="img/head.jpg"></a>
+                                        </div>
+                                        <div class="infos">
+                                            <div class="info">
+                                                <span class="name">
+            <a class="user-name" data-name="七月" href="#">Litter</a>
+          </span> ·
+                                                <span class="floor">#3</span> ·
+                                                <a class="time" href="#reply-77625"><abbr class="timeago" title="2017年05月31日">2 月前</abbr></a>
+                                                <span class="opts pull-right">
+              <span class="hideable">
+              <a class="edit fa fa-pencil" data-uid="16878" title="修改回帖" href="#"></a>
+              <a title="回复此楼" class="btn-reply fa fa-mail-reply" href="#"></a>
+              </span>
+                                                <a title="赞" class="likeable " href="#"><i class="fa fa-heart"></i> <span></span></a>
+                                                </span>
+                                            </div>
+
+                                            <div class="markdown">
+                                                <p>还有T恤耶</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reply">
+                                    <div>
+                                        <div class="avatar">
+                                            <a title="026" href="#"><img class="media-object avatar-48" src="img/head.jpg"></a>
+                                        </div>
+                                        <div class="infos">
+                                            <div class="info">
+                                                <span class="name">
+            <a class="user-name" data-name="" href="#">026</a>
+          </span> ·
+                                                <span class="floor">#4</span> ·
+                                                <a class="time" href="#reply-81882"><abbr class="timeago" title="2017年07月19日">1 天前</abbr></a>
+                                                <span class="opts pull-right">
+              <span class="hideable">
+              <a class="edit fa fa-pencil" data-uid="3623" title="修改回帖" href="#"></a>
+              <a title="回复此楼" class="btn-reply fa fa-mail-reply" href="#"></a>
+              </span>
+                                                <a title="赞" class="likeable " href="#"><i class="fa fa-heart"></i> <span></span></a>
+                                                </span>
+                                            </div>
+                                            <div class="reply-to-block" data-reply-to-id="77607">
+                                                <div class="info">
+                                                    对
+                                                    <a data-remote="true" href="#">
+                                                        <img class="media-object avatar-16" src="img/head.jpg"><span class="user-name">hello2014</span>
+                                                        <span class="reply-floor">#1</span>
+                                                    </a> 回复
+                                                </div>
+                                            </div>
+
+                                            <div class="markdown">
+                                                <p><a href="#" class="user-mention" title="@wolf"><i>@</i>wolf</a> <a href="#" class="user-mention" title="@Litter"><i>@</i>Litter</a> 已经邮寄</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reply">
+                                    <div>
+                                        <div class="avatar">
+                                            <a title="wolf (wolf)" href="#"><img class="media-object avatar-48" src="img/head.jpg"></a>
+                                        </div>
+                                        <div class="infos">
+                                            <div class="info">
+                                                <span class="name">
+            <a class="user-name" data-name="wolf" href="#">wolf</a>
+          </span> ·
+                                                <span class="floor">#5</span> ·
+                                                <a class="time" href="#reply-81902"><abbr class="timeago" title="2017年07月20日">1 天前</abbr></a>
+                                                <span class="opts pull-right">
+              <span class="hideable">
+              <a class="edit fa fa-pencil" data-uid="5953" title="修改回帖" href="#"></a>
+              <a title="回复此楼" class="btn-reply fa fa-mail-reply" href="#"></a>
+              </span>
+                                                <a title="赞" class="likeable " href="#"><i class="fa fa-heart"></i> <span></span></a>
+                                                </span>
+                                            </div>
+                                            <div class="reply-to-block" data-reply-to-id="81882">
+                                                <div class="info">
+                                                    对
+                                                    <a data-remote="true" href="#">
+                                                        <img class="media-object avatar-16" src="img/head.jpg"><span class="user-name">026</span>
+                                                        <span class="reply-floor">#4</span>
+                                                    </a> 回复
+                                                </div>
+                                            </div>
+
+                                            <div class="markdown">
+                                                <p>好滴！</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div id="reply" class="form box">
+                                    <div style="padding:20px;" data-turbolinks-action="replace">
+                                        需要 <a class="btn btn-primary" href="login.html">登录</a> 后方可回复, 如果你还没有账号请点击这里 <a class="btn btn-danger" href="registion.html">注册</a>。
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div id="reply" class="form box">
+                                    <form action="" method="post">
+                                        <div id="summernote">评论</div>
+                                        <input class="btn btn-primary" type="submit" value="提交">
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">相关话题</div>
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="/topics/5973">[北京] 阿里巴巴神马搜索招聘  商业搜索测试高级工程师</a></li>
+                                <li class="list-group-item"><a href="/topics/8633">[北京] 百度招聘啦~~ 测试开发工程师，正式&amp;实习的都可以，快来快来简历投过来~</a></li>
+                                <li class="list-group-item"><a href="/topics/8855">百度内容生态质量部招聘高级测试开发工程师</a></li>
+                                <li class="list-group-item"><a href="/topics/8686">百度内容生态质量部招聘高级测试开发工程师</a></li>
+                                <li class="list-group-item"><a href="/topics/5257">[北京] 新浪微博 微博搜索前端测试工程师</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="sidebar hidden-mobile col-md-3">
+
+                        <div id="topic-author-info" class="panel profile panel-default">
+                            <div class="panel-heading">作者</div>
+                            <div class="panel-body">
+                                <div class="media">
+                                    <div class="avatar media-left">
+                                        <div class="image">
+                                            <a title="Daowei (刘道伟)" href="#"><img class="media-object avatar-48" src="img/head.jpg"></a>
+                                        </div>
+                                        <div class="level"><span class="label label-success role">高级会员</span></div>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="item">
+                                            Daowei (刘道伟)
+                                        </div>
+                                        <div class="item number">
+                                            第 19135 位会员 / <span title="注册日期">2017-07-12</span>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="tagline row">
+                                    “ 这家伙很懒，什么个性签名都没有留下。 ”
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container end-->
+
+    <!--底部开始 -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="copyright">
+                        <p>&copy; Copyright - @2017 宜宾辉越科技有限公司<br><a target="_blank" href="http://www.miitbeian.gov.cn/">蜀ICP备17021191号</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--底部结束-->
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <!-- <script src="js/jquery.js"></script> -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/hover-dropdown.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/link-hover.js"></script>
+
+
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.6/summernote.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.6/lang/summernote-zh-CN.js"></script>
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 0 // default
+        })
+        wow.init();
+        $(document).ready(function() {
+            $('#summernote').summernote({
+                height: 200,
+                minHeight: 100,
+                maxHeight: 300,
+                lang: 'zh-CN'
+            });
+        });
+    </script>
+</body>
+
+</html>

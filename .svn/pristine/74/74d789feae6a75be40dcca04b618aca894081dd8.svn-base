@@ -63,15 +63,24 @@
                       </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="sqsh.html">社区生活</a>
+                                <a href="#">社区生活</a>
                             </li>
                             <li>
                                 <a href="ygzw.html">阳光政务</a>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="#">生活商城</a>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">集市商城 <i class="fa fa-angle-down"></i>
+                      </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">农贸市场</a>
+                            </li>
+                            <li>
+                                <a href="#">生活商城</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">店铺 <i class="fa fa-angle-down"></i>
